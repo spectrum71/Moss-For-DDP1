@@ -46,14 +46,14 @@ userid = 000000000
 # sesuaikan dengan penamaan berkas.
 # jika tidak menggunakan template, silahkan block comment potongan kode ini
 template_filename = "path/to/template_file/[insert filename].py"
-m.addBaseFile(template_filename
+m.addBaseFile(template_filename)
 ```
 Note: *comment block* potongan kode ini jika memang tidak memakai template kode. 
 3. Pada baris 14, isi variable  sesuai dengan lokasi *submission file* lab. Gunakan pattern untuk menambahkan *submission file* secara bersamaan.
 ```python
 # sesuaikan dengan penamaan berkas
 submission_patternname = "path/to/submission_file/submission/LabX_*.py"
-m.addFilesByWildcard(pattern_name
+m.addFilesByWildcard(pattern_name)
 ```
 4. Simpan script sebagai file terpisah.
 5. Untuk melakukan pengecekan dengan *script* yang dibuat, jalankan *command line* ini:
