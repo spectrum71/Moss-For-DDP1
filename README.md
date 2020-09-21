@@ -73,3 +73,5 @@ Halaman akan menampilkan pasangan *submission* yang terindikasi plagiat. Anda da
 ![Pair Detail](docs/result-detail.png)
 
 Untuk mencoba *script*, telah dilampirkan contoh *checker script* beserta *template* dan *submission script* pada direktori ``Tutorial_Script``.
+
+Disclaimer: Nama mahasiswa pada berkas contoh bersifat fiktik. Jika terdapat kesamaan dengan nama seorang individu di dunia nyata, itu merupakan murni suatu kebetulan.
