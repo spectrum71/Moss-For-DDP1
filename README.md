@@ -26,11 +26,11 @@ Ganti ``username@domain`` dengan *email* anda. Setelah mengirim *email*, pihak m
 #
 $userid=xxxxxxxx; 
 ```
-Note: Akan lebih mudah jika mencari menggunakan ``Ctrl+F`` atau ``F3``.
+**Note: Akan lebih mudah jika mencari menggunakan ``Ctrl+F`` atau ``F3``.**
 
 Simpan nilai dari *variable* ``userid``. Nilai ini akan digunakan untuk menggunakan *library* ``moss``. 
 
-##Penggunaan Library untuk Plagiarism Checker 
+## Penggunaan Library untuk Plagiarism Checker 
 Telah dilampirkan *template script* bernama ``checker_template.py`` yang terdapat pada direktori ``Template_Script``.
 
 *Template* tersebut digunakan untuk membuat *checker script* terpisah untuk setiap lab.
@@ -48,7 +48,7 @@ userid = 000000000
 template_filename = "path/to/template_file/[insert filename].py"
 m.addBaseFile(template_filename)
 ```
-Note: *comment block* potongan kode ini jika memang tidak memakai template kode. 
+**Note: *comment block* potongan kode ini jika memang tidak memakai template kode.** 
 3. Pada baris 14, isi variable  sesuai dengan lokasi *submission file* lab. Gunakan pattern untuk menambahkan *submission file* secara bersamaan.
 ```python
 # sesuaikan dengan penamaan berkas
@@ -74,4 +74,4 @@ Halaman akan menampilkan pasangan *submission* yang terindikasi plagiat. Anda da
 
 Untuk mencoba *script*, telah dilampirkan contoh *checker script* beserta *template* dan *submission script* pada direktori ``Tutorial_Script``.
 
-Disclaimer: Nama mahasiswa pada berkas contoh bersifat fiktik. Jika terdapat kesamaan dengan nama seorang individu di dunia nyata, itu merupakan murni suatu kebetulan.
+**Disclaimer: Nama mahasiswa pada berkas contoh bersifat fiktik. Jika terdapat kesamaan dengan nama seorang individu di dunia nyata, itu merupakan murni suatu kebetulan.**
