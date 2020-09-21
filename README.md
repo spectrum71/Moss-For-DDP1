@@ -48,7 +48,8 @@ userid = 000000000
 template_filename = "path/to/template_file/[insert filename].py"
 m.addBaseFile(template_filename)
 ```
-**Note: *comment block* potongan kode ini jika memang tidak memakai template kode.** 
+**Note: *comment block* potongan kode ini jika memang tidak memakai template kode.**
+
 3. Pada baris 14, isi variable  sesuai dengan lokasi *submission file* lab. Gunakan pattern untuk menambahkan *submission file* secara bersamaan.
 ```python
 # sesuaikan dengan penamaan berkas
